@@ -1,0 +1,24 @@
+//Generar una miniespecificación que permita ingresar los valor de ventas 
+//de un vendedor por cada día de la semana (lunes a viernes); donde 
+//día 0 es Lunes. Usar 2 arreglos
+
+
+Miniespecificacion:
+
+1. Inicio
+2. (ventas(5), i[0-n])
+3. (dias(5), x(20)[{a-z}; {BS}])
+4. cadena, x(300)[{A-Z}, {a-z}, {0-n}, {BS}]
+5. indice, i[0-n]
+6. dias[0]<-- "Lunes"
+7. dias[1]<-- "Martes"
+8. dias[2]<-- "Miércoles"
+9. dias[3]<-- "Jueves"
+10.dias[4]<-- "Viernes"
+11. Para(indice <--0, indice <5, 1) haga
+12.     <<"Ingrese el valor del dia" 
+13.     >> ventas[indice] 
+14.     cadena <-- cadena + dias[indice] + "" + "$" + ventas[indice] + "\n"
+15. Fin Para
+16. << mensaje
+17. Fin

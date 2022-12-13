@@ -15,14 +15,15 @@
 5.  notasEstudiante[0] <-- 8
 6.  notasEstudiante[1] <-- 5
 7.  notasEstudiante[2] <-- 2
-8.  Para(indice<--0, indice<3, 1) haga
-9.    Escribir notasEstudiante[indice]
-14. Fin_Para
+8.  notasEstudianteCualitativo[0]<-- Buena
+9.  notasEstudianteCualitativo[1]<-- Mala
+10. notasEstudianteCualitativo[2]<-- Mala
+11.  Para(indice<--0, indice<3, 1) haga
+12.         Escribir notasEstudiante[indice] + notasEstudianteCualitativo[indice]
+13. Fin_Para
+14. Fin
 15. // presenta el siguiente reporte
     // 8 es calificación -- Buena
     // 5 es calificación -- Mala
     // 2 es calificación -- Mala
-15. Para(indice<--0, indice<3, 1) haga
-16.   //
-17. Fin_Para
-18. Fin
+

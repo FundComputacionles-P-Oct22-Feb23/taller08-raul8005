@@ -22,10 +22,12 @@
 13. Para (indice<--0, indice<3, 1) entonces
 14.   suma <-- suma + notasMatematica[indice]
 15. Fin Para
-16. promedio[0] <-- suma/3  // 33 / 3 = 11
+16. promedio[0] <-- suma/3  // 26 / 3 = 8,66
 17. suma <-- 0
 17. Para (indice<--0, indice<3, 1) entonces
 18.   suma <-- suma + notasCiencias[indice]
 19. Fin Para
-20. promedio[1] <-- suma/3
-21. Escribir "Los promedios son:\n" + promedio[0] + "\n" + promedio[1]
+20. promedio[1] <-- suma/3   // 29 / 3 = 9,66
+21. Escribir "Los promedios son:\n" + promedio[0] + "\n" + promedio[1] //Los promedios son:
+                                                                       //8,6"
+                                                                       //9,6"
